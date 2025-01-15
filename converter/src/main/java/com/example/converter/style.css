@@ -1,0 +1,49 @@
+/* Загальний стиль для всіх елементів */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Фоновий колір для всього вікна */
+.root {
+    background-color: #4635B1; /* бежевий фон */
+    font-family: Arial, sans-serif;
+    color: #5c4033; /* темно-коричневий текст */
+    padding: 20px;
+}
+
+/* Стиль для кнопок */
+.button {
+    background-color: #d2b48c; /* світло-коричневий */
+    color: #ffffff;
+    border: 1px solid #a68c4d; /* коричневий обвід */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #8b5e3c; /* темно-коричневий при наведенні */
+}
+
+/* Стиль для полів вводу */
+.text-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #a68c4d; /* коричневий обвід */
+    border-radius: 5px;
+    background-color: #faf0e6; /* світлий бежевий фон */
+}
+
+.text-field:focus {
+    border-color: #8b5e3c; /* темно-коричневий обвід при фокусі */
+}
+
+/* Стиль для міток */
+.label {
+    font-size: 18px;
+    color: #6e4b3a; /* темно-коричневий текст */
+    margin-bottom: 5px;
+}
